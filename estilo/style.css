@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    background-image: linear-gradient(to right, darkgray, gray, lightgray);
+    text-decoration: none;
+    font-weight: bolder;
+    color:purple;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+header {
+    height: 102px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 10px;
+    font-variant: small-caps;
+}
+
+section {
+    
+    padding: 10px;
+}
+
+section h2 {
+    padding: 10px;
+}
+
+section p {
+    line-height: 1.9em;
+    font-family: cursive;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+section#img1 {
+    background: black url('../imagens/menino-livro-grande.jpg') center center fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 11px 2px black;
+    height: 638px;
+}
+
+section#img2 {
+    background: black url('../imagens/menino-peixe-grande.png') center center fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 11px 2px black;
+    height: 638px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
